@@ -1,0 +1,27 @@
+{
+  "name": "portfolio_ng",
+  "authors": [
+    "ValentynaGorbachenko <gorbachenko.valentyna@gmail.com>"
+  ],
+  "description": "portfolio using Angular",
+  "main": "",
+  "keywords": [
+    "portfolio",
+    "angular",
+    "node",
+    "express"
+  ],
+  "license": "MIT",
+  "homepage": "vgorbachenko.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Valentyna Gorbachenko portfolio webpage">
+    <meta name="author" content="Valentyna Gorbachenko">
+
+    <title>Valentyna Gorbachenko Portfolio</title>
+    <!-- Angular -->
+    <script type="text/javascript" src="angular/angular.js"></script>
+    <script type="text/javascript" src="angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>VG Portfolio</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Technologies</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <img class="img-responsive" src="assets/img/profile.png" alt="profile picture of Valentyna Gobachenko">
+            <h1>Full-Stack Web Developer</h1>
+            <h3 class="">Keep learning, keep exploring, keep doing more</h3>
+            <br>
+            <a href="#about" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>
+                        My name is Valentyna. I am a full-stack web developer passionate about new technologies, obsessed with JavaScript.
+                    </h2>
+                    <p class="lead">
+                        I have master's degree in CS and recently graduated from immersive coding bootcamp specialized on comprehensive and flexible full-stack education - from the front-end client-side languages to the back-end, consisting of web servers, back-end languages/frameworks, and databases. I am seeking to apply my knowledge to provide high quality services and further improve my skills in the web development while working in a team. Look forward to growing and learning with my new family.
+                    </p>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="/resume" class="btn btn-lg">
+                        <i class="fa fa-file-pdf-o"></i> View Resume
+                    </a>
+                    </div>
+                    <!-- dark circle arrows down -->
+                    <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#services" class="btn btn-circle btn-circle-opz page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                    </div> -->
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services - Techologies-->
+
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Technologies</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>LANGUAGES</strong>
+                                </h4>
+                                <p>JavaScript</p>
+                                <p>Python</p>
+                                <p>Ruby</p>
+                                <p>PHP</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>FRONT END</strong>
+                                </h4>
+                                <p>AngularJS</p>
+                                <p>JQuery/AJAX</p>
+                                <p>HTML5/CSS3</p>
+                                <p>Bootstrap</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>BACK END</strong>
+                                </h4>
+                                <p>Node.js</p>
+                                <p>Socket.io</p>
+                                <p>Firebase</p>
+                                <p>Flask</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>FRAMEWORKS</strong>
+                                </h4>
+                                <p>AngularJS</p>
+                                <p>Express.js</p>
+                                <p>AngularFire</p>
+                                <p>Rails</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>DATABASES</strong>
+                                </h4>
+                                <p>MongoDB</p>
+                                <p>MySQL</p>
+                                <p>PostgreSQL</p>
+                                <p>SQLight3</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="service-item">
+                                <h4>
+                                    <strong>OTHER</strong>
+                                </h4>
+                                <p>Git/Github</p>
+                                <p>RESTful APIs</p>
+                                <p>MVC, CMS</p>
+                                <p>AWS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#portfolio" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <h3>DojoNinjas</h3>
+                                            <p>AngularJS, Firebase, AngularFire, Firepad, Codemirror, HTML5, CSS</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/img/portfolio_dn1.png" class="img-portfolio img-responsive" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <h3>DreamsBakery</h3>
+                                            <p>Ruby on Rails, RSpec, PostgreSQL, HTML5, CSS, Bootstrap, AWS</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/img/portfolio-2.jpg" class="img-portfolio img-responsive" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <h3>HabitBreakers</h3>
+                                            <p>Python, MySQL, Pylot MVC, Twilio API, HTML5, CSS, AWS</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/img/portfolio-3.jpg" class="img-portfolio img-responsive" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <h3>Valia&#38;Vova Web Site</h3>
+                                            <p>WordPress, HTML5, CSS, CMS, freezoy</p>
+                                        </div>
+                                    </div>
+                                    <img src="assets/img/portfolio_vv1.png" class="img-portfolio img-responsive" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <!-- <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Fill free contact me via email, phone or social network of your preference</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/in/vgorbachenko"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ValentynaGorbachenko"><i class="fa fa-github-square fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:gorbachenko.valentyna@gmail.com"><i class="fa fa-envelope fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:gorbachenko.valentyna@gmail.com"><i class="fa fa-phone fa-fw fa-3x"></i> <strong>(650) 302-7126</strong></a>
+                        </li>
+
+                    </ul>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+ -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Valentyna Gorbachenko</strong>
+                    </h4>
+                    <p>Mountain View, CA</p>
+                    <p>Feel free to contact me via email or phone: </p>
+                    <ul class="list-unstyled">
+                        <li><a href="mailto:gorbachenko.valentyna@gmail.com"><i class="fa fa-envelope fa-fw"></i> gorbachenko.valentyna@gmail.com</a>
+                        </li>
+                        <li><i class="fa fa-phone fa-fw"></i> (650) 302-7126</li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.linkedin.com/in/vgorbachenko"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ValentynaGorbachenko"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:gorbachenko.valentyna@gmail.com"><i class="fa fa-envelope fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Valentyna Gorbachenko 2016</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>DojoNinjas</h2>
+                            <hr class="star-primary">
+                            <a href="https://dojoninjas-29b0d.firebaseapp.com"><img src="assets/img/portfolio_dn1.png" class="img-responsive img-portfolio" alt="Screen shot of the web page dojoninjas-29b0d.firebaseapp.com upper part">
+                                <img src="assets/img/portfolio_dn2.png" class="img-responsive img-portfolio" alt="Screen shot of the web page dojoninjas-29b0d.firebaseapp.com lower part"></a>
+                            <p>Solely created a web app that allows authenticated users to collaborate on code in a sandbox as well as sending messages in real time.</p>
+                            <p>Completed project in four days using self-taught concepts.</p>
+                            <p><strong>Technology used</strong>: AngularJS, Firebase, AngularFire, Firepad, Codemirror, HTML5, CSS</p>
+                            <ul class="list-inline item-details">
+                                <li>Solo:
+                                    <strong><a href="https://www.linkedin.com/in/vgorbachenko">Valentyna Gorbachenko</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="https://dojoninjas-29b0d.firebaseapp.com">September 2016</a>
+                                    </strong>
+                                </li>
+                                <li>Online:
+                                    <strong><a href="https://dojoninjas-29b0d.firebaseapp.com">https://dojoninjas-29b0d.firebaseapp.com</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>DreamsBakery</h2>
+                            <hr class="star-primary">
+                            <a href="https://github.com/ValentynaGorbachenko/dreams_bakery/tree/development"><img src="assets/img/portfolio-2.jpg" class="img-responsive img-portfolio" alt=""></a>
+                            <p>Collaborated on a team of 4 to create a message board application to ask questions and post answers, questions holders was notified by email about new comment.</p>
+                            <p>Owned task management, problem decomposition, routes, session and users controllers implementation, added ability to add avatar picture when user creates an account.</p>
+                            <p><strong>Technology used</strong>: Ruby on Rails, RSpec, PostgreSQL, HTML5, CSS3, Bootstrap, AWS</p>
+                            <ul class="list-inline item-details">
+                                <li>Group Project:
+                                    <a href="https://www.linkedin.com/in/vgorbachenko">Valentyna Gorbachenko</a>, Carlos Chen, Sang Yun, Dahye Hwang
+                                </li>
+                                <li>Date:
+                                    <strong><a href="https://github.com/ValentynaGorbachenko/dreams_bakery/tree/development">August 2016</a>
+                                    </strong>
+                                </li>
+                                <li>GitHub:
+                                    <strong><a href="https://github.com/ValentynaGorbachenko/dreams_bakery/tree/development">https://github.com/ValentynaGorbachenko/dreams_bakery/tree/development </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>HabitBreakers</h2>
+                            <hr class="star-primary">
+                            <a href="https://github.com/ValentynaGorbachenko/habitbreaker"><img src="assets/img/portfolio-3.jpg" class="img-responsive img-portfolio" alt=""></a>
+                            <p>Collaborated on a team of four to create an application that helps people to break their habits. Idea is to register and ask your friends or relatives to help you break your habit. Any user can have habits and ask for help by setting a fee to be payed to the helper/non-profit, or be a helper and track habit holder and submit violation.</p>
+                            <p>Owned design of the database, overall architecture of the app, full CRUD operations for users and habits.</p>
+                            <p><strong>Technology used</strong>: Python, MySQL, Pylot MVC, Twilio API, HTML5, CSS, AWS</p>
+                            <ul class="list-inline item-details">
+                                <li>Group Project:
+                                    <a href="https://www.linkedin.com/in/vgorbachenko">Valentyna Gorbachenko</a>, Dahye Hwang, Andrew Liu, Harmann Bajwa
+                                </li>
+                                <li>Date:
+                                    <strong><a href="https://github.com/ValentynaGorbachenko/habitbreaker">July 2016</a>
+                                    </strong>
+                                </li>
+                                <li>GitHub:
+                                    <strong><a href="https://github.com/ValentynaGorbachenko/dreams_bakery/tree/development ">https://github.com/ValentynaGorbachenko/dreams_bakery/tree/development </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Valia&#38;Vova Web Site</h2>
+                            <hr class="star-primary">
+                            <a href="http://gorbachenko.freezoy.com"><img src="assets/img/portfolio_vv1.png" class="img-responsive img-portfolio" alt="Screen shot of the home web page gorbachenko.freezoy.com"><img src="assets/img/portfolio_vv2.png" class="img-responsive img-portfolio" alt="Screen shot of the photo gallery web page gorbachenko.freezoy.com"></a>
+                            <p>Solely created a static web page to share special moments with our family and friends.</p>
+                            <p><strong>Technology used</strong>: WordPress, HTML5, CSS, CMS, freezoy</p>
+                            <ul class="list-inline item-details">
+                                <li>Solo:
+                                    <strong><a href="https://www.linkedin.com/in/vgorbachenko">Valentyna Gorbachenko</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://gorbachenko.freezoy.com">August 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Online:
+                                    <strong><a href="http://gorbachenko.freezoy.com">http://gorbachenko.freezoy.com</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    
+    </script>
+
+</body>
+
+</html>
