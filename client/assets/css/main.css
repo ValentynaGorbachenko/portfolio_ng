@@ -347,6 +347,7 @@ header h3{
   display: block;
   position: relative;
   max-width: 500px;
+  min-height: 310px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
